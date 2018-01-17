@@ -1,0 +1,61 @@
+body{
+  background-color: #64ffda; /* Teal */
+}
+/* Encabezado */
+header{
+  background-color: #aed581; /* light green */
+  min-height: 4rem;
+  padding: 0px !important;
+  border-radius: 0px 0px 10px 10px;
+}
+header .social a img:hover{
+  border-radius: 5px;
+  background-color: #00b0ff; /* light blue */
+}
+/* Navegacion*/
+nav{
+  background-color: #01579b; /* light blue */
+  border-radius: 0px 0px 10px 10px;
+}
+nav a{
+  color: #fff;
+  height: 100%;
+  border-radius: 5px;
+}
+nav a:hover{
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+nav .active{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/* Fin Navegacion*/
+/* Fin Encabezado */
+/* Contenido */
+/* Contenido Principal */
+.contenido{
+  background-color: #aed581;
+}
+.comentario input{
+  width: 100%;
+  height: 4rem;
+}
+/* Fin Contenido Principal */
+/* Busqueda */
+.busqueda{
+  border-left: 2px dashed rgba(0,0,0,0.3);
+}
+.busqueda .buscador{
+  background-color: #e0e0e0;
+}
+.busqueda .buscador input{
+  width: 100%;
+}
+.busqueda .opcion{
+  border: 1px solid black;
+}
+.busqueda .opcion:hover{
+  background-color: rgba(0,0,0,0.5);
+}
+/* Fin Busqueda */
